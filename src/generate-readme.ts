@@ -29,7 +29,8 @@ const genSolutionsTableList = (): string => {
         table += `| ${Array(table_headers.length).fill('---').join(' | ')} |\n`
 
         sorted_solutions.filter(s => s.category == category.id).forEach(s => {
-            table += `| ${s.name} | ${s.description} | ${s.selfHost ? ':heavy_check_mark:' : ':x:'} |\n`;
+            let self_host = s.selfHost ? `<details><summary>:heavy_check_mark:</summary>${typeof s.selfHost == 'string' ? `Installation Command: \`${s.selfHost}\`` : `Installation Commands: <ul>${s.selfHost.map(cmd => `<li>\`${cmd}\`</li>`).join('')}</ul>`}</details>` : ':x:';
+            table += `| ${s.name} | ${s.description} | ${self_host} |\n`;
         });
 
         tables += `${table}\n`;
