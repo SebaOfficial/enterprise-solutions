@@ -19,39 +19,39 @@ Welcome to the Open Source Enterprise Solutions repository! This repository is a
 ## Solutions
 The solutions are listed by alphabetical order.
 
-# File Storage & Sharing
+### File Storage & Sharing
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
 | Nextcloud | Self-hosted file storage and sync platform with powerful collaboration capabilities with desktop, mobile and web interfaces. | :heavy_check_mark: |
 | Proton Drive | End-to-end encryption for your cloud storage. | :x: |
 
-# Human Resources Management
+### Human Resources Management
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
 | OrangeHRM | HRIS expirience from talent management to culture, to people management and compensation. | :x: |
 
-# Mail
+### Mail
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
 | Proton Mail | Encrypted email service based in Switzerland. | :x: |
 
-# Password Manager
+### Password Manager
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
 | BitWarden | Store, manage, and share passwords, passkeys, credit cards, and more. | :heavy_check_mark: |
 | Proton Pass | Store, share and auto-login your accounts using end-to-end encryption. | :x: |
 
-# Scheduling & Time Management
+### Scheduling & Time Management
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
 | Proton Calendar | Your calendar is a record of your life. Proton Calendar helps keep it private. | :x: |
 
-# Virtual Machines
+### Virtual Machines
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
 | Proxmox | Enterprise virtualization with backing up and restoring VMs, containers, and physical hosts. | :heavy_check_mark: |
 
-# VPN
+### VPN
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
 | Proton VPN | Anonymous VPN service that keeps your browsing history private without logging. | :x: |
