@@ -1,0 +1,44 @@
+name: Generate README.md
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '21'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate Data
+        run: npm run validate
+
+      - name: Generate README
+        run: npm run generate:readme
+      
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --exit-code --quiet || echo "Changes found"
+          echo "::set-output name=changes::$(if git status --porcelain | grep -q '^'; then echo 'true'; else echo 'false'; fi)"
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "Generate README.md"
+          git push
