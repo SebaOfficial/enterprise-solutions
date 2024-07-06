@@ -24,7 +24,7 @@ const genSolutionsTableList = (): string => {
     let tables = '';
 
     sorted_categories.forEach(category => {
-        let table = `# ${category.name}\n`;
+        let table = `### ${category.name}\n`;
         table += `| ${table_headers.join(' | ')} |\n`;
         table += `| ${Array(table_headers.length).fill('---').join(' | ')} |\n`
 
