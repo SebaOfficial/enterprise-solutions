@@ -1,7 +1,7 @@
 # Open Source Enterprise Solutions
 Welcome to the Open Source Enterprise Solutions repository! This repository is a curated list of open source software that can be used in enterprise environments. Whether you are looking for a CRM, ERP, or other enterprise-grade solutions, you'll find it here.
 
-**Note**: This repository is not associated with or affiliated with any of the listed solutions.
+**Note**: This repository is not associated with nor affiliated with any of the listed solutions.
 
 ## Table Of Contents
 * [Contributing](/CONTRIBUTING.md)
