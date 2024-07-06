@@ -13,7 +13,7 @@ Please follow these steps to contribute to this repository:
 
 1. Fork the repository
 2. Edit [`assets/solutions.json`](/assets/solutions.json)
-3. Validate [`assets/solutions.json`](/assets/solutions.json)
+3. Validate the solutions:
     ```bash
     npm run validate
     ```
