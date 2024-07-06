@@ -22,39 +22,39 @@ The solutions are listed by alphabetical order.
 ### File Storage & Sharing
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
-| Nextcloud | Self-hosted file storage and sync platform with powerful collaboration capabilities with desktop, mobile and web interfaces. | <details><summary>:heavy_check_mark:</summary>Installation Command: `sudo docker run --init --sig-proxy=false --name nextcloud-aio-mastercontainer --restart always --publish 80:80 --publish 8080:8080 --publish 8442:8442 --volume nextcloud_aio_mastercontainer:/mnt/docker-aio-config --volume /var/run/docker.sock:/var/run/docker.sock:ro nextcloud/all-in-one:latest`</details> |
-| Proton Drive | End-to-end encryption for your cloud storage. | :x: |
+| [Nextcloud](https://nextcloud.com/) | Self-hosted file storage and sync platform with powerful collaboration capabilities with desktop, mobile and web interfaces. | <details><summary>:heavy_check_mark:</summary>Installation Command: `sudo docker run --init --sig-proxy=false --name nextcloud-aio-mastercontainer --restart always --publish 80:80 --publish 8080:8080 --publish 8442:8442 --volume nextcloud_aio_mastercontainer:/mnt/docker-aio-config --volume /var/run/docker.sock:/var/run/docker.sock:ro nextcloud/all-in-one:latest`</details> |
+| [Proton Drive](https://proton.me/drive) | End-to-end encryption for your cloud storage. | :x: |
 
 ### Human Resources Management
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
-| OrangeHRM | HRIS expirience from talent management to culture, to people management and compensation. | :x: |
+| [OrangeHRM](https://www.orangehrm.com/) | HRIS expirience from talent management to culture, to people management and compensation. | :x: |
 
 ### Mail
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
-| Proton Mail | Encrypted email service based in Switzerland. | :x: |
+| [Proton Mail](https://proton.me/mail) | Encrypted email service based in Switzerland. | :x: |
 
 ### Password Manager
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
-| BitWarden | Store, manage, and share passwords, passkeys, credit cards, and more. | <details><summary>:heavy_check_mark:</summary>Installation Commands: <ul><li>`curl -s -L -o bitwarden.sh 'https://func.bitwarden.com/api/dl/?app=self-host&platform=linux'`</li><li>`chmod +x bitwarden.sh`</li><li>`./bitwarden.sh install`</li><li>`./bitwarden.sh start`</li></ul></details> |
-| Proton Pass | Store, share and auto-login your accounts using end-to-end encryption. | :x: |
+| [BitWarden](https://bitwarden.com/) | Store, manage, and share passwords, passkeys, credit cards, and more. | <details><summary>:heavy_check_mark:</summary>Installation Commands: <ul><li>`curl -s -L -o bitwarden.sh 'https://func.bitwarden.com/api/dl/?app=self-host&platform=linux'`</li><li>`chmod +x bitwarden.sh`</li><li>`./bitwarden.sh install`</li><li>`./bitwarden.sh start`</li></ul></details> |
+| [Proton Pass](https://proton.me/pass) | Store, share and auto-login your accounts using end-to-end encryption. | :x: |
 
 ### Scheduling & Time Management
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
-| Proton Calendar | Your calendar is a record of your life. Proton Calendar helps keep it private. | :x: |
+| [Proton Calendar](https://proton.me/calendar) | Your calendar is a record of your life. Proton Calendar helps keep it private. | :x: |
 
 ### Virtual Machines
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
-| Proxmox | Enterprise virtualization with backing up and restoring VMs, containers, and physical hosts. | <details><summary>:heavy_check_mark:</summary>Installation Command: `echo 'Go to https://proxmox.com/downloads and download the ISO'`</details> |
+| [Proxmox](https://proxmox.com/) | Enterprise virtualization with backing up and restoring VMs, containers, and physical hosts. | <details><summary>:heavy_check_mark:</summary>Installation Command: `echo 'Go to https://proxmox.com/downloads and download the ISO'`</details> |
 
 ### VPN
 | Name | Description | Can be Self Hosted |
 | --- | --- | --- |
-| Proton VPN | Anonymous VPN service that keeps your browsing history private without logging. | :x: |
+| [Proton VPN](https://protonvpn.com/) | Anonymous VPN service that keeps your browsing history private without logging. | :x: |
 
 
 ## License
