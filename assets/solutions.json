@@ -6,62 +6,63 @@
       "url": "https://bitwarden.com/",
       "description": "Store, manage, and share passwords, passkeys, credit cards, and more.",
       "category": 0,
-      "selfHost": [
-        "curl -s -L -o bitwarden.sh 'https://func.bitwarden.com/api/dl/?app=self-host&platform=linux'",
-        "chmod +x bitwarden.sh",
-        "./bitwarden.sh install",
-        "./bitwarden.sh start"
-      ]
+      "github": "bitwarden"
     },
     {
       "name": "Proxmox",
       "url": "https://proxmox.com/",
       "description": "Enterprise virtualization with backing up and restoring VMs, containers, and physical hosts.",
       "category": 2,
-      "selfHost": "echo 'Go to https://proxmox.com/downloads and download the ISO'"
+      "github": "proxmox"
     },
     {
       "name": "Proton Mail",
       "url": "https://proton.me/mail",
       "description": "Encrypted email service based in Switzerland.",
-      "category": 1
+      "category": 1,
+      "github": "ProtonMail"
     },
     {
       "name": "Proton VPN",
       "url": "https://protonvpn.com/",
       "description": "Anonymous VPN service that keeps your browsing history private without logging.",
-      "category": 3
+      "category": 3,
+      "github": "ProtonVPN"
     },
     {
       "name": "Proton Drive",
       "url": "https://proton.me/drive",
       "description": "End-to-end encryption for your cloud storage.",
-      "category": 4
+      "category": 4,
+      "github": "ProtonDriveApps"
     },
     {
       "name": "Proton Pass",
       "url": "https://proton.me/pass",
       "description": "Store, share and auto-login your accounts using end-to-end encryption.",
-      "category": 0
+      "category": 0,
+      "github": "ProtonPass"
     },
     {
       "name": "Proton Calendar",
       "url": "https://proton.me/calendar",
       "description": "Your calendar is a record of your life. Proton Calendar helps keep it private.",
-      "category": 5
+      "category": 5,
+      "github": "ProtonMail/proton-calendar"
     },
     {
       "name": "Nextcloud",
       "url": "https://nextcloud.com/",
       "description": "Self-hosted file storage and sync platform with powerful collaboration capabilities with desktop, mobile and web interfaces.",
       "category": 4,
-      "selfHost": "sudo docker run --init --sig-proxy=false --name nextcloud-aio-mastercontainer --restart always --publish 80:80 --publish 8080:8080 --publish 8442:8442 --volume nextcloud_aio_mastercontainer:/mnt/docker-aio-config --volume /var/run/docker.sock:/var/run/docker.sock:ro nextcloud/all-in-one:latest"
+      "github": "nextcloud"
     },
     {
       "name": "OrangeHRM",
       "url": "https://www.orangehrm.com/",
       "description": "HRIS expirience from talent management to culture, to people management and compensation.",
-      "category": 6
+      "category": 6,
+      "github": "orangehrm"
     }
   ]
 }
