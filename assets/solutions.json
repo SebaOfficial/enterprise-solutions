@@ -9,6 +9,13 @@
       "github": "bitwarden"
     },
     {
+      "name": "Passbolt",
+      "url": "https://www.passbolt.com/",
+      "description": "The open source password manager for teams. Passbolt simplifies password management, helps prevent data loss, stores data securely and enables secure password sharing.",
+      "category": 0,
+      "github": "passbolt"
+    },
+    {
       "name": "Proxmox",
       "url": "https://proxmox.com/",
       "description": "Enterprise virtualization with backing up and restoring VMs, containers, and physical hosts.",
@@ -30,11 +37,39 @@
       "github": "ProtonVPN"
     },
     {
+      "name": "Mullvad",
+      "url": "https://mullvad.net/",
+      "description": "Free the internet from mass surveillance and censorship. Fight for privacy with Mullvad VPN.",
+      "category": 3,
+      "github": "Mullvad"
+    },
+    {
       "name": "Proton Drive",
       "url": "https://proton.me/drive",
       "description": "End-to-end encryption for your cloud storage.",
       "category": 4,
       "github": "ProtonDriveApps"
+    },
+    {
+      "name": "Seafile",
+      "url": "https://www.seafile.com/",
+      "description": "Seafile is an open source, self-hosted file sync and share solution with high performance and reliability. Sync, access, and collaborate on files on your own server or private cloud.",
+      "category": 4,
+      "github": "haiwen/seafile"
+    },
+    {
+      "name": "Syncthing",
+      "url": "https://syncthing.net/",
+      "description": "Syncthing is an open-source tool for continuous file synchronization between devices. It ensures data privacy and security through end-to-end encryption and decentralization.",
+      "category": 4,
+      "github": "syncthing"
+    },
+    {
+      "name": "ownCloud",
+      "url": "https://owncloud.com/",
+      "description": "ownCloud, your file platform. The most essential business tool for enterprise-grade file sync and share.",
+      "category": 4,
+      "github": "owncloud"
     },
     {
       "name": "Proton Pass",
