@@ -8,16 +8,20 @@
         "type": "object",
         "properties": {
           "id": {
-            "type": "integer"
+            "type": "integer",
+            "description": "Incremental ID of the category"
           },
           "name": {
             "type": "string",
             "minLength": 3,
-            "maxLength": 128
+            "maxLength": 128,
+            "description": "The name of the category"
           }
         },
-        "required": ["id", "name"]
+        "required": ["id", "name"],
+        "additionalProperties": false
       }
     }
-  }
+  },
+  "required": ["categories"]
 }

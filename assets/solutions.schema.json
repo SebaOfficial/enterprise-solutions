@@ -9,27 +9,33 @@
         "properties": {
           "name": {
             "type": "string",
-            "minLength": 1
+            "minLength": 1,
+            "description": "The name of the solution"
           },
           "url": {
             "type": "string",
-            "format": "uri"
+            "format": "uri",
+            "description": "The url of the main page of the solution"
           },
           "description": {
             "type": "string",
             "minLength": 16,
             "maxLength": 256,
-            "pattern": "^.+\\.$"
+            "pattern": "^.+\\.$",
+            "description": "A description of the solution"
           },
           "category": {
-            "type": "number"
+            "type": "number",
+            "description": "The category ID of the solution, see assets/solutions.json"
           },
           "github": {
             "type": "string",
-            "pattern": "^([a-zA-Z0-9_-]+)(/([a-zA-Z0-9_-]+)?)?/?$"
+            "pattern": "^([a-zA-Z0-9_-]+)(/([a-zA-Z0-9_-]+)?)?/?$",
+            "description": "The GitHub username/repository of the solution"
           }
         },
-        "required": ["name", "url", "description", "github"]
+        "required": ["name", "url", "description", "github"],
+        "additionalProperties": false
       }
     }
   },
