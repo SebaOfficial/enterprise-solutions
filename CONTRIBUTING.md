@@ -11,7 +11,7 @@ There are several ways you can contribute to this repository:
 ## Contribution Guidelines
 Please follow these steps to contribute to this repository:
 
-1. Fork the repository
+1. [Fork the repository](https://github.com/SebaOfficial/enterprise-solutions/fork)
 2. Edit [`assets/solutions.json`](/assets/solutions.json)
 3. Validate the solutions:
     ```bash
