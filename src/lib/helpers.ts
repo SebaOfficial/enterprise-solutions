@@ -45,7 +45,7 @@ export const validateJson = async (path: string) => {
     const valid = validate(data);
 
     if (!valid) {
-        throw new Error(`Validation errors: ${validate.errors}`);
+        throw new Error(`Validation errors: ${JSON.stringify(validate.errors)}`);
     }
 
     return data;
