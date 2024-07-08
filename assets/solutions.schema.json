@@ -24,21 +24,12 @@
           "category": {
             "type": "number"
           },
-          "selfHost": {
-            "oneOf": [
-              {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              {
-                "type": "string"
-              }
-            ]
+          "github": {
+            "type": "string",
+            "pattern": "^([a-zA-Z0-9_-]+)(/([a-zA-Z0-9_-]+)?)?/?$"
           }
         },
-        "required": ["name", "url", "description"]
+        "required": ["name", "url", "description", "github"]
       }
     }
   },
