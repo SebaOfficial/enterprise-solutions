@@ -20,7 +20,7 @@ const genSolutionsTOC = (): string => {
 };
 
 const genSolutionsTableList = (): string => {
-    const table_headers = ['Name', 'Description', 'Can be Self Hosted'];
+    const table_headers = ['Name', 'Description', 'GitHub URL'];
     let tables = '';
 
     sorted_categories.forEach(category => {
@@ -29,8 +29,7 @@ const genSolutionsTableList = (): string => {
         table += `| ${Array(table_headers.length).fill('---').join(' | ')} |\n`
 
         sorted_solutions.filter(s => s.category == category.id).forEach(s => {
-            let self_host = s.selfHost ? `<details><summary>:heavy_check_mark:</summary>${typeof s.selfHost == 'string' ? `Installation Command: \`${s.selfHost}\`` : `Installation Commands: <ul>${s.selfHost.map(cmd => `<li>\`${cmd}\`</li>`).join('')}</ul>`}</details>` : ':x:';
-            table += `| [${s.name}](${s.url}) | ${s.description} | ${self_host} |\n`;
+            table += `| [${s.name}](${s.url}) | ${s.description} | [${s.github}](https://github.com/${s.github}) |\n`;
         });
 
         tables += `${table}\n`;

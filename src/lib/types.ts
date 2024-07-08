@@ -8,5 +8,5 @@ export interface Solution {
     url: string;
     description: string;
     category: number;
-    selfHost: string[] | string | undefined;
+    github: string;
 }
