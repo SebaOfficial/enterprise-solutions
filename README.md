@@ -7,6 +7,7 @@ Welcome to the Open Source Enterprise Solutions repository! This repository is a
 * [Contributing](/CONTRIBUTING.md)
 * [License](#license)
 * [Solutions](#solutions)
+	* [Backups](#backups)
 	* [File Storage & Sharing](#file-storage--sharing)
 	* [Human Resources Management](#human-resources-management)
 	* [Mail](#mail)
@@ -19,10 +20,14 @@ Welcome to the Open Source Enterprise Solutions repository! This repository is a
 ## Solutions
 The solutions are listed by alphabetical order.
 
-### File Storage & Sharing
+### Backups
 | Name | Description | GitHub URL |
 | --- | --- | --- |
 | [Duplicati](https://duplicati.com/) | Backup client that securely encrypts and backs up your data to cloud storage services like Amazon S3, OneDrive, Google Drive, etc. | [duplicati](https://github.com/duplicati) |
+
+### File Storage & Sharing
+| Name | Description | GitHub URL |
+| --- | --- | --- |
 | [Nextcloud](https://nextcloud.com/) | Self-hosted file storage and sync platform with powerful collaboration capabilities with desktop, mobile and web interfaces. | [nextcloud](https://github.com/nextcloud) |
 | [ownCloud](https://owncloud.com/) | ownCloud, your file platform. The most essential business tool for enterprise-grade file sync and share. | [owncloud](https://github.com/owncloud) |
 | [Proton Drive](https://proton.me/drive) | End-to-end encryption for your cloud storage. | [ProtonDriveApps](https://github.com/ProtonDriveApps) |
