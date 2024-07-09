@@ -28,6 +28,10 @@
     {
       "id": 6,
       "name": "Human Resources Management"
+    },
+    {
+      "id": 7,
+      "name": "Backups"
     }
   ]
 }
