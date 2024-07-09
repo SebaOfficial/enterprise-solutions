@@ -103,7 +103,7 @@
       "name": "Duplicati",
       "url": "https://duplicati.com/",
       "description": "Backup client that securely encrypts and backs up your data to cloud storage services like Amazon S3, OneDrive, Google Drive, etc.",
-      "category": 4,
+      "category": 7,
       "github": "duplicati"
     }
   ]
