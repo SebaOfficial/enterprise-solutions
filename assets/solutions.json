@@ -98,6 +98,13 @@
       "description": "HRIS expirience from talent management to culture, to people management and compensation.",
       "category": 6,
       "github": "orangehrm"
+    },
+    {
+      "name": "Duplicati",
+      "url": "https://duplicati.com/",
+      "description": "Backup client that securely encrypts and backs up your data to cloud storage services like Amazon S3, OneDrive, Google Drive, etc.",
+      "category": 4,
+      "github": "duplicati"
     }
   ]
 }
