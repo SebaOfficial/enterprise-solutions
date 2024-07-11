@@ -43,6 +43,7 @@ The solutions are listed by alphabetical order.
 | Name | Description | GitHub URL |
 | --- | --- | --- |
 | [Proton Mail](https://proton.me/mail) | Encrypted email service based in Switzerland. | [ProtonMail](https://github.com/ProtonMail) |
+| [Roundcube](https://roundcube.net/) | Free and open source webmail software for enterprises. | [roundcube](https://github.com/roundcube) |
 
 ### Password Manager
 | Name | Description | GitHub URL |
