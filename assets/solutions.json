@@ -30,6 +30,13 @@
       "github": "ProtonMail"
     },
     {
+      "name": "Roundcube",
+      "url": "https://roundcube.net/",
+      "description": "Free and open source webmail software for enterprises.",
+      "category": 1,
+      "github": "roundcube"
+    },
+    {
       "name": "Proton VPN",
       "url": "https://protonvpn.com/",
       "description": "Anonymous VPN service that keeps your browsing history private without logging.",
