@@ -12,12 +12,13 @@ There are several ways you can contribute to this repository:
 Please follow these steps to contribute to this repository:
 
 1. [Fork the repository](https://github.com/SebaOfficial/enterprise-solutions/fork)
-2. Edit [`assets/solutions.json`](/assets/solutions.json)
-3. Validate the solutions:
+2. Create a new branch like `my-solution`
+3. Edit [`assets/solutions.json`](/assets/solutions.json)
+4. Validate the solutions:
     ```bash
     npm run validate
     ```
-4. Create a pull request
+5. Create a pull request
 
 ## Thank You
 Thank you for your contributions! Your efforts help make this project a valuable resource for the community.
