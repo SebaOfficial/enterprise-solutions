@@ -1,9 +1,9 @@
 {
   "scripts": {
     "validate": "npm run validate:categories && npm run validate:solutions",
-    "validate:categories": "npx tsx src/validate-categories.ts",
-    "validate:solutions": "npx tsx src/validate-solutions.ts",
-    "generate:readme": "npx tsx src/generate-readme.ts"
+    "validate:categories": "tsx src/validate-categories.ts",
+    "validate:solutions": "tsx src/validate-solutions.ts",
+    "generate:readme": "tsx src/generate-readme.ts"
   },
   "dependencies": {
     "ajv": "^8.16.0",
@@ -11,6 +11,7 @@
     "jsonschema": "^1.4.1"
   },
   "devDependencies": {
-    "@types/node": "^20.14.10"
+    "@types/node": "^20.14.10",
+    "tsx": "^4.19.1"
   }
 }
