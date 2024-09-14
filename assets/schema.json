@@ -42,8 +42,7 @@
           }
         },
         "required": ["name", "url", "description", "github"],
-        "additionalProperties": false,
-        "uniqueItems": true
+        "additionalProperties": false
       }
     }
   },
