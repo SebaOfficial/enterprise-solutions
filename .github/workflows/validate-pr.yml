@@ -2,17 +2,18 @@ name: Validate Pull Request
 
 on:
   pull_request:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   validate:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '21'
-    - run: npm install
-    - run: npm run validate
+      - uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "21"
+      - run: npm install
+      - run: npm run validate
