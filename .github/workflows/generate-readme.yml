@@ -24,7 +24,7 @@ jobs:
         run: npm run validate
 
       - name: Generate README
-        run: npm run generate:readme
+        run: npm run readme
       
       - name: Check for changes
         id: check_changes

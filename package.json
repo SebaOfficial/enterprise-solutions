@@ -1,7 +1,7 @@
 {
   "scripts": {
     "validate": "tsx src/validate.ts",
-    "generate:readme": "tsx src/generate-readme.ts"
+    "readme": "tsx src/readme.ts"
   },
   "dependencies": {
     "ajv": "^8.16.0",
