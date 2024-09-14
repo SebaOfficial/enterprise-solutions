@@ -1,21 +1,26 @@
-import { validateJson, solutions_path, categories_path } from './lib/helpers';
-import type { Solution, Category } from './lib/types';
+import { validateJson, solutions_path } from './lib/helpers';
+import type { Solutions, Solution } from './lib/types';
 
 (async function () {
     try {
 
-        const data: { solutions: Solution[] } = await validateJson(solutions_path) as { solutions: Solution[] };
-        const categoryData: { categories: Category[] } = await validateJson(categories_path) as { categories: Category[] };
+        const data = await validateJson(solutions_path) as Solutions;
 
-        const categories = new Set(categoryData.categories.map(category => category.id));
+        // Check for duplicate categories
+        const categoriesSet = new Set<string>();
+        data.categories.forEach((category: string) => {
+            if (categoriesSet.has(category.toLowerCase()))
+                throw new Error(`There is a duplicate category name: ${category}`);
+            
+            categoriesSet.add(category.toLowerCase());
+        });
 
-        // Check for duplicates
+        // Check for duplicate solutions
         const nameSet = new Set<string>();
         const urlSet = new Set<string>();
-
         data.solutions.forEach((solution: Solution) => {
-            if (!categories.has(solution.category))
-                throw new Error(`The category ${solution.category} for ${solution.name} is not listed in ${categories_path}`);
+            if (!data.categories[solution.category])
+                throw new Error(`The category ${solution.category} for ${solution.name} doesn't exist`);
 
             if (nameSet.has(solution.name.toLowerCase()))
                 throw new Error(`Duplicate solution found with name: ${solution.name}`);

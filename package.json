@@ -1,8 +1,6 @@
 {
   "scripts": {
-    "validate": "npm run validate:categories && npm run validate:solutions",
-    "validate:categories": "tsx src/validate-categories.ts",
-    "validate:solutions": "tsx src/validate-solutions.ts",
+    "validate": "tsx src/validate.ts",
     "generate:readme": "tsx src/generate-readme.ts"
   },
   "dependencies": {

@@ -1,6 +1,6 @@
-export interface Category {
-    id: number;
-    name: string;
+export interface Solutions {
+    categories: string[];
+    solutions: Solution[];
 }
 
 export interface Solution {

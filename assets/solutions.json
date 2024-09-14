@@ -1,5 +1,16 @@
 {
-  "$schema": "./solutions.schema.json",
+  "$schema": "./schema.json",
+  "categories": [
+    "Password Manager",
+    "Mail",
+    "Virtual Machines",
+    "VPN",
+    "File Storage & Sharing",
+    "Scheduling & Time Management",
+    "Human Resources Management",
+    "Backups",
+    "Low-Code No-Code"
+  ],
   "solutions": [
     {
       "name": "BitWarden",

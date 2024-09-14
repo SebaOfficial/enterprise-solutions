@@ -2,6 +2,13 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
     "solutions": {
       "type": "array",
       "items": {
@@ -26,7 +33,7 @@
           },
           "category": {
             "type": "number",
-            "description": "The category ID of the solution, see assets/solutions.json"
+            "description": "The index of the item in the categories array"
           },
           "github": {
             "type": "string",
@@ -35,9 +42,10 @@
           }
         },
         "required": ["name", "url", "description", "github"],
-        "additionalProperties": false
+        "additionalProperties": false,
+        "uniqueItems": true
       }
     }
   },
-  "required": ["solutions"]
+  "required": ["solutions", "categories"]
 }
