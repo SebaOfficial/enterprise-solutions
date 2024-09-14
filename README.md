@@ -10,6 +10,7 @@ Welcome to the Open Source Enterprise Solutions repository! This repository is a
 	* [Backups](#backups)
 	* [File Storage & Sharing](#file-storage--sharing)
 	* [Human Resources Management](#human-resources-management)
+	* [Low-Code No-Code](#low-code-no-code)
 	* [Mail](#mail)
 	* [Password Manager](#password-manager)
 	* [Scheduling & Time Management](#scheduling--time-management)
@@ -38,6 +39,11 @@ The solutions are listed by alphabetical order.
 | Name | Description | GitHub URL |
 | --- | --- | --- |
 | [OrangeHRM](https://www.orangehrm.com/) | HRIS expirience from talent management to culture, to people management and compensation. | [orangehrm](https://github.com/orangehrm) |
+
+### Low-Code No-Code
+| Name | Description | GitHub URL |
+| --- | --- | --- |
+| [n8n](https://n8n.io/) | Workflow automation platform for technical teams. | [n8n-io](https://github.com/n8n-io) |
 
 ### Mail
 | Name | Description | GitHub URL |
