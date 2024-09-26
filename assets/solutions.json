@@ -9,7 +9,8 @@
     "Scheduling & Time Management",
     "Human Resources Management",
     "Backups",
-    "Low-Code No-Code"
+    "Low-Code No-Code",
+    "User Management"
   ],
   "solutions": [
     {
@@ -130,6 +131,13 @@
       "description": "Workflow automation platform for technical teams.",
       "category": 8,
       "github": "n8n-io"
+    },
+    {
+      "name": "Super Tokens",
+      "url": "https://supertokens.com/",
+      "description": "Manage user authentication.",
+      "category": 9,
+      "github": "supertokens"
     }
   ]
 }
