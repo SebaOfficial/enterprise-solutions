@@ -14,6 +14,7 @@ Welcome to the Open Source Enterprise Solutions repository! This repository is a
 	* [Mail](#mail)
 	* [Password Manager](#password-manager)
 	* [Scheduling & Time Management](#scheduling--time-management)
+	* [User Management](#user-management)
 	* [Virtual Machines](#virtual-machines)
 	* [VPN](#vpn)
 
@@ -62,6 +63,11 @@ The solutions are listed by alphabetical order.
 | Name | Description | GitHub URL |
 | --- | --- | --- |
 | [Proton Calendar](https://proton.me/calendar) | Your calendar is a record of your life. Proton Calendar helps keep it private. | [ProtonMail/proton-calendar](https://github.com/ProtonMail/proton-calendar) |
+
+### User Management
+| Name | Description | GitHub URL |
+| --- | --- | --- |
+| [Super Tokens](https://supertokens.com/) | Manage user authentication. | [supertokens](https://github.com/supertokens) |
 
 ### Virtual Machines
 | Name | Description | GitHub URL |
